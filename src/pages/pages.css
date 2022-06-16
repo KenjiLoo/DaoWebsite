@@ -1,0 +1,108 @@
+  .voting{
+    margin-top: 350px;
+    background-color: white;
+    height:100vh;
+  }
+  
+  .content{
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contentProposal{
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    width:60vw;
+    left: 20vw;
+    position: absolute;
+  }
+
+  .proposal{
+    margin-bottom: 40px;
+  }
+
+  .votesDiv{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .votingPage{
+    width: 200px;
+  }
+
+  .backHome {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+    font-size: 12px;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .proposalOverview{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .proposer {
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    color:rgba(0, 0, 0, 0.5);
+    align-items: center;
+  }
+  
+  .tabContent {
+    left: 20vw;
+    position: absolute;
+    width:60vw;
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  
+  .widgets { 
+    display: flex;
+    justify-content:space-between;
+    gap:10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* height:120px; */
+  }
+  
+  .extraWidgetInfo{
+    color:black;
+    font-size: 12px;
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  .extraTitle{
+    display: flex;
+    justify-content: end;
+    color: #e91e63;
+  }
+  
+  .progress{
+    margin-top: 20px;
+    height:8px;
+    background-color:white;
+    border: 1px #e91e63 solid;
+    border-radius: 4px;
+  }
+  
+  .progressPercentage{
+    height:8px;
+    background-color:#e91e63;
+    border-radius: 4px;
+  }
+
+  /* added my own */ 
+/* .connect-button{
+  background-color: #e91e63;
+}
+   */
