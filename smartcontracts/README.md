@@ -13,3 +13,10 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+SETUP .env file here.
+
+use: 
+API_KEY = ''
+POLYGON_MUMBAI = ''
+PRIVATE_KEY = ''
