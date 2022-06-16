@@ -1,8 +1,11 @@
+// eslint-disable-next-line
 import React, { useEffect, useState, getStatus } from "react";
 import "./pages.css";
 import { TabList, Tab, Widget, Tag, Table, Form } from "web3uikit";
 import { Link } from "react-router-dom";
 import { useMoralis, useMoralisWeb3Api, useWeb3ExecuteFunction } from "react-moralis";
+
+// eslint-disable-next-line
 import {Moralis} from "moralis";
 
 
@@ -140,6 +143,7 @@ const Home = () => {
       getProposals(); 
       getPassRate();
     }
+    // eslint-disable-next-line
   }, [isInitialized]);
 
   return (

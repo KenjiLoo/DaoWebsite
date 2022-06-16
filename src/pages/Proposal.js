@@ -57,6 +57,7 @@ const Proposal = () => {
       }
       getVotes();
     }
+    // eslint-disable-next-line
   }, [isInitialized]);
 
   async function castVote(upDown) {
