@@ -1,8 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, getStatus } from "react";
 import "./pages.css";
 import { TabList, Tab, Widget, Tag, Table, Form } from "web3uikit";
 import { Link } from "react-router-dom";
 import { useMoralis, useMoralisWeb3Api, useWeb3ExecuteFunction } from "react-moralis";
+import {Moralis} from "moralis";
+
 
 const Home = () => {
  

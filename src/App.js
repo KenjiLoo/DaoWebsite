@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Proposal from "./pages/Proposal";
 
 import keafarmLogo from "./images/keafarm.png";
-import { ConnectButton, Button } from "web3uikit";
+import { ConnectButton } from "web3uikit";
 
 const App = () => {
   return (

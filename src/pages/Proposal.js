@@ -4,6 +4,8 @@ import { Widget, Blockie, Icon, Tooltip, Tag, Table, Form } from "web3uikit";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
 import { useMoralis, useWeb3ExecuteFunction } from "react-moralis";
+
+// eslint-disable-next-line
 import { Affix } from "antd";
 
 const Proposal = () => {
